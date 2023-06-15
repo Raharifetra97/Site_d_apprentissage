@@ -1,0 +1,220 @@
+/* layout */
+:root {
+  --primary: #1AAC83;
+  -error: #E7195A;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+header {
+  background: #FFF;
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a{
+  margin-left: 10px;
+  padding: 20px;
+}
+nav a:hover{
+  background-color: #00BBF0;
+}
+nav button {
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px;
+  border-radius: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+/* Contenu dans le cours */
+.cours {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  max-width: 1400px;
+  margin-top: 0px
+}
+div .titreCours {
+  
+}
+div .paraCours {
+  margin: 10px;
+  padding: 5px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16px;
+  width: 1000px
+}
+.butCours {
+  text-align: center;
+}
+.butCours button {
+  height: 40px;
+  background-color: #15DBFB;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+/* Le Formulaire dans la page de signup */
+form.signup{
+  max-width: 600px;
+  height: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 5px 9px 10px #333;
+}
+form div{
+  margin-left: 100px;
+  padding: 10px;
+}
+form h2{
+  text-align: center;
+}
+form input{
+  width: 350px;
+  padding: 8px;
+}
+form button {
+  margin-left: 135px;
+  height: 40px;
+  width: 100px;
+  border: 1px ;
+  background-color: #005792;
+}
+div .error{
+  margin-left: 0px;
+  margin-top: 8px;
+  margin-right: 90px;
+  border: 1px #E7195A outset;
+  background-color: #E7195A;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* le contenu dans le contact */
+.contact {
+  margin: 40px 340px 100px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 5px 9px 10px #333;
+
+}
+.contact div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h3{
+  margin-left: 200px;
+}
+.contact button {
+  background-color: #005792;
+  border-radius: 3px;
+  height: 40px;
+}
+
+/* Contenu dans la page Lesson*/
+.lesson {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  max-width: 1400px;
+  margin-top: 0px
+}
+.lessonP1, .lessonP2, .lessonLi1, .lessonLi2 {
+  font-size: 16px;
+  width: 800px;
+}
+.lessonCarte {
+  position: fixed;
+  right: 0px;
+  top: 200px;
+}
+
+
+/* Contenu dans la page Acceuil */
+.home {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  max-width: 1400px;
+  margin-top: 0px
+}
+.home img{
+  margin-left: 90px;
+}
+.home .paraAccueil{
+  margin: 10px;
+  padding: 5px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16px;
+  width: 1000px
+}
+.home h1 {
+  text-align: center;
+}
+
+/* Contenu dans la page Login */
+.login{
+  margin: 40px 340px 100px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 5px 9px 10px #333;
+}
+.login .logError {
+  margin-top: 8px;
+  margin-right: 90px;
+  border: 1px #E7195A;
+  background-color: #E7195A;
+  text-align: center;
+  border-radius: 5px;  
+}
+span{
+  border: 1px solid;
+  border-radius: 6px;
+}
